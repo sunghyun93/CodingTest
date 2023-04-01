@@ -31,7 +31,7 @@ public class Test0401_1 {
         return answer;
     }
 	
-
+	//실행시키기 위한 main 함수
 	public static void main(String[] args) {
 		String [] name = {"may", "kein", "kain", "radi"};
 		int [] yearning = {5, 10, 1, 3};
