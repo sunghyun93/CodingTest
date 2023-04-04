@@ -9,7 +9,7 @@ public class Test0404_1 {
         int maxX = Integer.MIN_VALUE;
         int maxY = Integer.MIN_VALUE;
         
-        int[] answer = new int[] {minX,minY,maxX+1,maxY+1};
+        
 		
         
         int x =  wallpaper.length;
@@ -31,6 +31,6 @@ public class Test0404_1 {
         
         
         
-        return answer;
+        return new int[] {minX,minY,maxX+1,maxY+1};
     }
 }
