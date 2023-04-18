@@ -15,7 +15,7 @@ public class Test0404_1 {
         int x =  wallpaper.length;
         int y = wallpaper[0].length();
         
-        for(int i=0; i< x; i++) {
+        for(int i=0; i< x; i++) {ㅇ
         	for(int j=0; j < y; j++) {
         		if(wallpaper[i].charAt(j) == '#') {
         			 minX = Math.min(minX,i);
